@@ -27,7 +27,7 @@ client = HockeyApp.build_client
 apps = client.get_apps
 versions = apps.first.versions
 crashes = apps.first.crashes
-....
+```
 
 ## Documentation
 
